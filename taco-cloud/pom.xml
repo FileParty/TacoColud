@@ -17,6 +17,7 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+		<!-- 해당 디펜더시를 추가시 스프링 부트의 자동구성 런타임시에 classpath에 thymeleaf를 찾아 빈을 자동으로 생성한다. -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>

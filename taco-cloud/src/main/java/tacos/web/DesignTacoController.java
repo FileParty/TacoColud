@@ -43,6 +43,7 @@ public class DesignTacoController {
 	
 	@GetMapping
 	public String showDesignForm(Model model) {
+		log.info("desgin check");
 		// log.info("test");
 		/*
 		 * List<Ingredient> ingredients = Arrays.asList( new Ingredient("FLTO",
